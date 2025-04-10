@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Raj Shree Bangles & Gift Center</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <h1>Raj Shree Bangles & Gift Center</h1>
+  </header>
+  <main>
+    <section class="catalog">
+      <div class="item">
+        <img src="images/bangle1.jpg" alt="Bangle 1"/>
+        <p>Fancy Bangle Set</p>
+      </div>
+      <div class="item">
+        <img src="images/purse1.jpg" alt="Purse 1"/>
+        <p>Designer Purse</p>
+      </div>
+      <!-- Add more items as needed -->
+    </section>
+  </main>
+  <footer>
+    <p>© 2025 Raj Shree Bangles</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff8f0;
+  color: #333;
+}
+
+header {
+  background-color: #d81b60;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.catalog {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 200px;
+  background: white;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.item img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+console.log("Welcome to Raj Shree Catalog!");
